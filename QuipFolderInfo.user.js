@@ -154,7 +154,7 @@ $(document).ready(function() {
                 }
                 console.log(txt);
                 if (global_loading_finish) {
-                    copyToClipboard(txt);
+                    copyToClipboard("# 0.全局索引\n" + txt);
                     alert('成功生成全局索引内容，已复制到剪贴板，请打开“0.全局索引”文件，进行粘贴即可。');
                 }
             });
